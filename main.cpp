@@ -1,8 +1,8 @@
-#include <iostream>
+#include <stdio.h>
 
 int main()
 {
-  printf("\n\t*** Hallo Welt ***\n");
+  printf("Hallo Welt!\n");
 
   return 0;
 }
