@@ -1,8 +1,14 @@
 #include <stdio.h>
 
+void foo(int *a)
+{
+  *a = *a + 10;
+}
+
 int main()
 {
-  printf("Hallo Welt!\n");
+  int a = 42;
 
-  return 0;
+  foo(&a);
+  printf("%d\n", a);
 }
