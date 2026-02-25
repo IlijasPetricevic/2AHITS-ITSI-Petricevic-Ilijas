@@ -30,4 +30,4 @@ localPort = 5000
 externalPort = 80
 
 [nix]
-packages = ["apmplanner2", "openrct2", "tree", "wget"]
+packages = ["apmplanner2", "openrct2", "tree", "wget", "file"]
